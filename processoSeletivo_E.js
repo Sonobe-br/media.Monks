@@ -4,4 +4,6 @@ let letraInvestigada = "o";
 
 let totalEclipseInTheHeart = [...frase].filter(letra => letra === letraInvestigada).length;
 
-console.log(`A letra investigada foi encontrada ${totalEclipseInTheHeart} vezes`);
+console.log(`String: Processo Seletivo - Teste de Programação  
+Element: "o" 
+Result: ${totalEclipseInTheHeart} vezes`);
