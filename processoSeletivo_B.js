@@ -1,15 +1,11 @@
-/* let frutas = ['laranja','banana','manga','limão','morango','mamão','uva','caju','abacaxi','melancia'];
-const caixaDeFrutas = frutas.filter((_,i) => frutas[i]);
-console.log(frutas.length); */
-   
 let fruits = [{tipo:'orange'}, {tipo:'banana'}, {tipo:'mango'}, {tipo:'lemon'}];
 
-function allFruits(fruit){
+function arraySize(array){
 
-    return fruit.tipo === fruits;
+    return array.tipo === fruits;
 
 }
  
-allFruits(fruits.length);
+arraySize(fruits.length);
 
-console.log(fruits.length);  
+console.log(fruits.length); //para conferir o resultado no meu console.  
